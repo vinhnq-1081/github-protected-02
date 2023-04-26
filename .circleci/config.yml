@@ -17,10 +17,10 @@ jobs:
       - run:
           name: "Say hello"
           command: "echo Hello, World!"
-    - run:
-      name: clone code
-      command: |
-        git clone https://github.com/vinhnq-1081/my_notes
+      - run:
+        name: clone code
+        command: |
+          git clone https://github.com/vinhnq-1081/my_notes
 
 # Orchestrate jobs using workflows
 # See: https://circleci.com/docs/configuration-reference/#workflows
