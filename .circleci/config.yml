@@ -20,7 +20,7 @@ jobs:
       - run:
           name: clone code
           command: |
-              git clone https://github.com/vinhnq-1081/my_notes
+              git clone https://github.com/vinhnq-1081/github-protected-01
 
 # Orchestrate jobs using workflows
 # See: https://circleci.com/docs/configuration-reference/#workflows
